@@ -1,1 +1,3 @@
-This project is designed to send emails asynchronously using **Celery** and **Redis** as the task queue backend. The purpose of this application is to handle the sending of emails in the background without blocking the main application process. This is particularly useful for large-scale applications where email tasks can be offloaded to background workers to improve performance.
+This project is designed to send emails asynchronously using **Celery** and **Redis** as the task queue backend.
+
+
