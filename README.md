@@ -10,6 +10,15 @@ Create a .env file in the project root and add the most protected things that do
 
 after that run the migrations
 
+Install Redis and Start Redis Server
+
+Install Celery and Start Celery Worker
+
+both Redis and Celery is in the requirement but you should have to start the server
+
+endpoints ==> 1)  http://127.0.0.1:8000/emails/   
+              2)  http://127.0.0.1:8000/emails/trigger-email-task/
+
 
 
 
